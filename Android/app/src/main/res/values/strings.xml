@@ -1,0 +1,154 @@
+<!--
+ Copyright 2024 Google LLC
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">GameFace</string>
+    <string name="voice_keyboard_name">AICC 键盘</string>
+    <string name="voice_keyboard_subtype">AICC 键盘</string>
+    <string name="voice_keyboard_status_idle">点击麦克风开始语音输入</string>
+    <string name="voice_keyboard_status_listening">正在监听，请开始说话</string>
+    <string name="voice_keyboard_status_no_permission">需要在 GameFace 应用中授予麦克风权限</string>
+    <string name="voice_keyboard_status_unavailable">当前设备不支持语音识别</string>
+    <string name="voice_keyboard_status_ready">AICC 键盘已就绪</string>
+    <string name="voice_keyboard_status_error">语音识别失败，请重试</string>
+    <string name="voice_keyboard_status_committed">文本已插入</string>
+    <string name="voice_keyboard_status_dictation_stopped">语音输入已停止</string>
+    <string name="voice_keyboard_status_move_to_pointer">键盘已移动到指针附近</string>
+    <string name="voice_keyboard_result_placeholder">识别预览将显示在这里</string>
+    <string name="voice_keyboard_button_mic">麦克风</string>
+    <string name="voice_keyboard_button_stop">停止</string>
+    <string name="voice_keyboard_button_space">空格</string>
+    <string name="voice_keyboard_button_delete">删除</string>
+    <string name="voice_keyboard_button_enter">回车</string>
+    <string name="voice_keyboard_button_shift">大小写</string>
+    <string name="voice_keyboard_button_confirm">确认</string>
+    <string name="voice_keyboard_button_backspace">退格</string>
+    <string name="voice_keyboard_button_settings">输入法设置</string>
+    <string name="voice_keyboard_drag_handle">拖动键盘</string>
+    <string name="voice_keyboard_mode_docked">停靠</string>
+    <string name="voice_keyboard_mode_free">自由悬浮</string>
+    <string name="voice_keyboard_mode_follow_pointer">跟随指针</string>
+    <string name="voice_keyboard_mode_summary">模式：%1$s  缩放：%2$d%%  主题：%3$s</string>
+    <string name="voice_keyboard_input_standard">标准键盘</string>
+    <string name="voice_keyboard_input_ziyou">自由拼音</string>
+    <string name="voice_keyboard_large_toggle">键盘缩放</string>
+    <string name="voice_keyboard_move_to_pointer_button">移到指针旁</string>
+    <string name="voice_keyboard_theme_gameface">GameFace</string>
+    <string name="voice_keyboard_theme_classic">经典</string>
+    <string name="voice_keyboard_move_left">←</string>
+    <string name="voice_keyboard_move_right">→</string>
+    <string name="voice_keyboard_move_up">↑</string>
+    <string name="voice_keyboard_move_down">↓</string>
+    <string name="voice_keyboard_move_center">居中</string>
+    <string name="voice_keyboard_button_mic_description">开始语音输入</string>
+    <string name="voice_keyboard_button_stop_description">停止语音输入</string>
+    <string name="voice_keyboard_button_space_description">插入空格</string>
+    <string name="voice_keyboard_button_delete_description">删除上一个字符</string>
+    <string name="voice_keyboard_button_enter_description">插入新的一行</string>
+    <string name="voice_keyboard_button_shift_description">切换大小写</string>
+    <string name="voice_keyboard_button_confirm_description">提交当前预览文本</string>
+    <string name="voice_keyboard_button_backspace_description">删除上一个字符</string>
+    <string name="voice_keyboard_button_settings_description">打开 Android 输入法设置</string>
+    <string name="voice_keyboard_status_docked_mode">已启用停靠模式</string>
+    <string name="voice_keyboard_status_free_mode">已启用自由悬浮模式，可拖动或微调键盘位置</string>
+    <string name="voice_keyboard_status_follow_mode">已启用跟随指针模式</string>
+    <string name="voice_keyboard_status_scale_changed">键盘缩放已设置为 %1$d%%</string>
+    <string name="voice_keyboard_status_shift_on">已切换为大写</string>
+    <string name="voice_keyboard_status_shift_off">已切换为小写</string>
+    <string name="voice_keyboard_status_confirmed">预览文本已提交</string>
+    <string name="voice_keyboard_status_ziyou_enabled">已启用自由拼音模式</string>
+    <string name="voice_keyboard_status_standard_enabled">已启用标准键盘模式</string>
+    <string name="voice_keyboard_status_choose_final">请为 %1$s 选择韵母</string>
+    <string name="voice_keyboard_status_ziyou_committed">已将 %1$s 添加到预览</string>
+    <string name="voice_keyboard_status_ziyou_cancelled">已关闭自由拼音韵母面板</string>
+    <string name="voice_keyboard_status_ziyou_empty">预览内容为空</string>
+    <string name="voice_keyboard_status_ziyou_candidates">%1$s 的候选词已准备好</string>
+    <string name="voice_keyboard_status_ziyou_associations">%1$s 的联想词已准备好</string>
+    <string name="voice_keyboard_status_ziyou_candidate_committed">已上屏候选词 %1$s</string>
+    <string name="voice_keyboard_status_ziyou_no_candidates">未找到 %1$s 的内置候选词</string>
+    <string name="voice_keyboard_result_ziyou_placeholder">自由拼音预览将显示在这里</string>
+    <string name="voice_keyboard_candidate_first">首选</string>
+    <string name="voice_keyboard_ring_back">返回</string>
+    <string name="voice_keyboard_follow_strategy_center">居中跟随指针</string>
+    <string name="voice_keyboard_follow_strategy_above">显示在指针上方</string>
+    <string name="voice_keyboard_follow_strategy_edge">吸附到屏幕边缘</string>
+    <string name="voice_keyboard_settings_title">AICC 键盘设置</string>
+    <string name="voice_keyboard_settings_intro">此页面仅用于配置键盘。实际输入键盘会在你通过系统输入法选择器切换到 AICC 键盘后显示。</string>
+    <string name="voice_keyboard_settings_preview_title">键盘预览</string>
+    <string name="voice_keyboard_settings_preview_input">预览</string>
+    <string name="voice_keyboard_settings_mode_title">交互模式</string>
+    <string name="voice_keyboard_settings_theme_title">键盘主题</string>
+    <string name="voice_keyboard_settings_scale_title">键盘缩放</string>
+    <string name="voice_keyboard_settings_scale_value">当前缩放：%1$d%%</string>
+    <string name="voice_keyboard_settings_follow_title">跟随指针策略</string>
+    <string name="voice_keyboard_settings_gesture_title">面部手势映射</string>
+    <string name="voice_keyboard_settings_gesture_summary_text">使用手势设置页面，把面部表情映射为开始语音输入、切换键盘模式、调整缩放，或将键盘移动到指针附近。</string>
+    <string name="voice_keyboard_settings_gesture_button">打开手势映射</string>
+    <string name="voice_keyboard_settings_ime_title">输入法可用性</string>
+    <string name="voice_keyboard_settings_ime_status_available">Android 已检测到 AICC 键盘。你可以在下方启用它或直接切换到它。</string>
+    <string name="voice_keyboard_settings_ime_status_missing">Android 输入法设置中暂时还看不到 AICC 键盘。请重新安装最新版本后再打开输入法设置。</string>
+    <string name="voice_keyboard_settings_ime_status_unknown">无法在此设备上查询 Android 输入法列表。</string>
+    <string name="voice_keyboard_settings_tools_title">系统工具</string>
+    <string name="voice_keyboard_settings_enable_ime">打开 Android 输入设置</string>
+    <string name="voice_keyboard_settings_show_picker">显示键盘选择器</string>
+    <string name="voice_keyboard_settings_reset_position">重置自由键盘位置</string>
+
+
+
+    <string-array name="event_type_description_keys">
+        <item>CURSOR_TOUCH</item>
+        <item>IME_TOGGLE_DICTATION</item>
+        <item>IME_SWITCH_MODE</item>
+        <item>IME_TOGGLE_SIZE</item>
+        <item>IME_MOVE_TO_POINTER</item>
+        <item>HOME</item>
+        <item>BACK</item>
+        <item>SHOW_NOTIFICATION</item>
+        <item>CURSOR_PAUSE</item>
+        <item>CURSOR_RESET</item>
+        <item>DRAG_TOGGLE</item>
+        <item>SHOW_APPS</item>
+    </string-array>
+
+
+
+    <string-array name="event_type_description_keys_values">
+        <item>选择一个面部手势，用来选中手机上的项目，例如应用、文本、按钮等</item>
+        <item>选择一个面部手势，用来开始或停止 AICC 键盘中的语音输入</item>
+        <item>选择一个面部手势，用来在 AICC 键盘的停靠、自由悬浮和跟随指针模式之间切换</item>
+        <item>选择一个面部手势，用来切换 AICC 键盘缩放档位</item>
+        <item>选择一个面部手势，用来将 AICC 键盘移动到当前指针附近</item>
+        <item>选择一个面部手势，用来打开手机主屏幕</item>
+        <item>选择一个面部手势，用来返回上一个界面</item>
+        <item>选择一个面部手势，用来打开通知栏</item>
+        <item>选择一个面部手势，用来暂停或恢复光标</item>
+        <item>选择一个面部手势，用来重置光标位置</item>
+        <item>选择一个面部手势，用来在手机上执行触摸并按住，也就是长按</item>
+        <item>选择一个面部手势，用来打开全部应用</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+</resources>
